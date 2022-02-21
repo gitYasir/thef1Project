@@ -1,0 +1,9 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home,
+.drivers {
+  font-size: 1.3em;
+}
