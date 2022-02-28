@@ -1,15 +1,14 @@
 import NavBar from "../NavBar";
 import { Routes, Route } from "react-router-dom";
-import Drivers from "../Drivers";
+import DriversPage from "../DriversPage";
 import Home from "../Home";
 
 function App() {
   return (
     <>
-      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="drivers" element={<Drivers />} />
+        <Route path="drivers" element={<DriversPage />} />
       </Routes>
     </>
   );

@@ -4,14 +4,9 @@ import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <div className={css.navBar}>
-      <div className={css.home}>
-        <Link to="/">Home</Link>
-      </div>
-      <div className={css.drivers}>
-        <Link to="/drivers">Drivers</Link>
-      </div>
-    </div>
+    <Link to="/" className={css.home}>
+      Home
+    </Link>
   );
 }
 //check

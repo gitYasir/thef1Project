@@ -1,11 +1,11 @@
 import React from "react";
-import driversData from "../../Data/driversData";
+import drivers2021 from "../../Data/driversData";
 import DriverCard from "../DriverCard";
 
 function Drivers() {
   return (
     <>
-      {driversData.map((driver) => {
+      {drivers2021.map((driver) => {
         return <DriverCard driver={driver} />;
       })}
     </>
