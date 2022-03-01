@@ -1,13 +1,17 @@
-import React from "react";
-import drivers2021 from "../../Data/driversData";
 import DriverCard from "../DriverCard";
+import { Link } from "react-router-dom";
 
-function Drivers() {
+function Drivers({ drivers }) {
   return (
     <>
-      {drivers2021.map((driver) => {
-        return <DriverCard driver={driver} />;
-      })}
+      <Link to="/drivers">
+        <button>Back</button>
+      </Link>
+      <div>
+        {drivers.map((driver) => {
+          return <DriverCard driver={driver} />;
+        })}
+      </div>
     </>
   );
 }
