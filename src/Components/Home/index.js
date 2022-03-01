@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import NavBar from "../NavBar";
 import css from "./Home.module.css";
 
 function Home() {
