@@ -6,11 +6,12 @@ This is a project I work on in my spare time, to practice using the the tools I'
 
 ## Currently
 
+    `create-react-app`
       I'm using create-react-app along with react router to set up the pages and display different data sets.
 
 ## Future
 
-    After setting up the skeleton of my project, I plan to add testing to insure I don't break what I've already made and to also practice TDD for the future features.
+    After setting up the skeleton of my project, I plan to add testing using jest to insure I don't break what I've already made and to also practice TDD for the future features.
 
     I also plan to practice using a tool I've done research on in my own time, Chart.JS, to visually display driver race records.
 
