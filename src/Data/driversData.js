@@ -54,7 +54,7 @@ const drivers = [
   {
     id: 18,
     driverName: "Mick Schumacher",
-    driverNumber: 55,
+    driverNumber: 47,
     years: [2021, 2022],
   },
   {
